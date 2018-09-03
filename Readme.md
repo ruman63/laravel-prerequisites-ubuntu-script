@@ -5,7 +5,7 @@ To run this script, clone this repository and execute the script:
 
 ```bash
 cd ~
-git clone laravel-prerequisites-ubuntu && cd laravel-prerequisites-ubuntu
+git clone laravel-prerequisites-ubuntu-script && cd laravel-prerequisites-ubuntu-script
 sh install.sh
 ```
 
