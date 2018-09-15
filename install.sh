@@ -1,8 +1,12 @@
 #!/bin/sh
 sudo apt update;
 
-#Install git and curl php php-extensions, sqlite, mysql & nginx
-sudo apt install -y git curl php php-common php-mbstring php-gd php-mysql php-sqlite3 php-xml php-zip php-json php-curl php-mcrypt nginx sqlite3 mysql-server;
+#Install git and curl 
+sudo apt install -y git curl;
+#php php-extensions
+sudo apt install -y php php-common php-mbstring php-gd php-mysql php-sqlite3 php-xml php-zip php-json php-curl;
+#sqlite, mysql & nginx
+sudo apt install -y nginx sqlite3 mysql-server;
 
 #Install composer
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer;
